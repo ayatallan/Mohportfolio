@@ -8,7 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "Empowering enterprise success through cutting-edge technology and client-first commitment.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +19,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title:
+      "We reshape digital transformation in a way that enriches our clients’ businesses",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +30,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "",
+    description: "Our Solutions",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -49,8 +51,9 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title:
+      "Our core values guide every service we offer and every relationship we build.",
+    description: "",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -72,132 +75,171 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Automation(STA)",
+    des: "We help to create and apply the latest technology to business processes, allowing them to function with minimal human intervention.",
+    img: "/automation-svgrepo-com.svg",
+    // iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: [],
+    link: "/automation",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
+    title: "Enterprise Services (STS)",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    img: "/server-svgrepo-com (1).svg",
+    iconLists: [],
+    link: "/enterprise",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Network & Security (STN)",
+    des: "We provide network and security services to protect your digital space. The shield fortifies your online domain against threats, serving as a vigilant guardian against intruders and cyber attacks. It offers the latest defenses for peace of mind in the digital world.",
+    img: "/network-server-svgrepo-com.svg",
+    iconLists: [],
+    link: "/network",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Hybrid Cloud(STC)",
+    des: "We offer Hybrid Cloud solutions that blend public and private clouds for flexible, scalable, and secure growth.",
+    img: "/cld-cloud-network-folder-svgrepo-com.svg",
+    iconLists: [],
+    link: "/hybridcloud",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "It is 2022, and the shortage in the global oil & gas supply due to the war in Ukraine, coupled with the embargo on Russian oil & gas have caused the demand to increase. With this increased demand, Hess Exploration and Production realised that they needed better computing power to increase gas extraction and storage.",
+    name: "Hess Exploration and Production Malaysia",
+    // title: "Hess Exploration and Production Malaysia",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "When one of Asia Pacific’s largest insurance and securities groups received a 90% capacity alert from its enterprise IT team, AIA Berhad did what almost every organization did during the Covid pandemic – they re-evaluated their operations, looking at it with a fresh outlook taking into account the changing requirements brought upon by the pandemic.",
+    name: "AIA Berhad Life Insurance & Securities",
+
+    // title: "Hess Exploration and Production Malaysia",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Newly acquired GVE Asia Sdn Bhd was tasked to set up their IT infrastructure in just two weeks. The Volkswagen and Jeep dealer was only just beginning to understand and adopt the processes of their new parent company, when they realised their technology infrastructure required a revamp. This was a requirement by Volkswagen …",
+    name: "GVE Asia Sdn Bhd",
+    // title: "Hess Exploration and Production Malaysia",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    nameImg: "/1.png",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+  
+    nameImg: "/2.png",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    
+    nameImg: "/3.png",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    
+    nameImg: "/4.png",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    
+    nameImg: "/5.png",
+  },
+  {
+    id: 6,
+    
+    nameImg: "/6.png",
+  },
+  {
+    id: 7,
+    
+    nameImg: "/7.png",
+  },
+  {
+    id: 8,
+    
+    nameImg: "/8.png",
+  },
+  {
+    id: 9,
+    
+    nameImg: "/9.png",
+  },
+  {
+    id: 10,
+    
+    nameImg: "/10.png",
+  },
+  ,
+  {
+    id: 11,
+    
+    nameImg: "/11.png",
+  },
+  ,
+  {
+    id: 12,
+    
+    nameImg: "/12.png",
+  },
+  ,
+  {
+    id: 13,
+    
+    nameImg: "/13.png",
+  },
+  ,
+  {
+    id: 14,
+    
+    nameImg: "/14.png",
+  },
+  ,
+  {
+    id: 15,
+    
+    nameImg: "/15.png",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Leadership",
+    desc: "We develop leaders within Systemizer Technic. A team of people who lead by example and go above and beyond to ensure every need of every client is met and managed.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/goal.png",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Passion",
+    desc: "We’re passionate about everything we do at Systemizer Technic. Our team is committed to providing that exciting and passionate experience for every customer",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/award.png",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Integrity",
+    desc: "Everything we do at Systemizer Technic is done with integrity, honesty, and professionalism, backed by our strong principles to create trust with every client.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/diamond.png",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Futurist",
+    desc: "We’re continually striving to stay ahead of the curve on technology by using various leading-edge tools and strategies to analyse trends in the future of technology. We make the future possible through innovation and ingenuity.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/technology.png",
   },
 ];
 
