@@ -256,89 +256,89 @@ const NetworkSecurityPage = () => {
         </div>
       </section>
 
-        <section className="stn-email">
-        <style jsx>{
-          .stn-email {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background: linear-gradient(135deg, #06080f, #0c1b27, #101827);
-            color: #f0f9ff;
-            backdrop-filter: blur(10px);
-            border-radius: 1rem;
-            margin: 0 auto;
-          }
+<section className="stn-email">
+  <style jsx>{`
+    .stn-email {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #06080f, #0c1b27, #101827);
+      color: #f0f9ff;
+      backdrop-filter: blur(10px);
+      border-radius: 1rem;
+      margin: 0 auto;
+    }
 
-          .stn-email h2 {
-            font-size: 2.5rem;
-            font-weight: 800;
-            border-left: 4px solid #2dd4bf;
-            padding-left: 1rem;
-            margin-bottom: 1.5rem;
-            margin-top: 1.5rem;
-          }
+    .stn-email h2 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      border-left: 4px solid #2dd4bf;
+      padding-left: 1rem;
+      margin-bottom: 1.5rem;
+      margin-top: 1.5rem;
+    }
 
-          form {
-            display: flex;
-            flex-direction: column;
-            width: 90%;
-            max-width: 600px;
-            gap: 2.5rem;
-            padding: 5rem;
-          }
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      max-width: 600px;
+      gap: 2.5rem;
+      padding: 5rem;
+    }
 
-          input[type="email"],
-          textarea {
-            background-color: rgba(255, 255, 255, 0.05);
-            border: 2px solid #2dd4bf;
-            border-radius: 0.75rem;
-            padding: 1rem;
-            color: #e0f7fa;
-            font-size: 1.1rem;
-            font-family: inherit;
-            resize: vertical;
-            min-height: 3rem;
-            transition: border-color 0.3s ease;
-          }
+    input[type="email"],
+    textarea {
+      background-color: rgba(255, 255, 255, 0.05);
+      border: 2px solid #2dd4bf;
+      border-radius: 0.75rem;
+      padding: 1rem;
+      color: #e0f7fa;
+      font-size: 1.1rem;
+      font-family: inherit;
+      resize: vertical;
+      min-height: 3rem;
+      transition: border-color 0.3s ease;
+    }
 
-          input[type="email"]:focus,
-          textarea:focus {
-            outline: none;
-            border-color: #22d3ee;
-            background-color: rgba(255, 255, 255, 0.1);
-          }
+    input[type="email"]:focus,
+    textarea:focus {
+      outline: none;
+      border-color: #22d3ee;
+      background-color: rgba(255, 255, 255, 0.1);
+    }
 
-          textarea {
-            min-height: 120px;
-          }
+    textarea {
+      min-height: 120px;
+    }
 
-          button {
-            background-color: #2dd4bf;
-            color: #0f172a;
-            font-weight: 700;
-            padding: 1rem 2rem;
-            border-radius: 0.75rem;
-            border: none;
-            cursor: pointer;
-            font-size: 1.1rem;
-            transition: background-color 0.3s ease;
-            align-self: flex-start;
-            box-shadow: 0 0 15px #2dd4bf;
-          }
+    button {
+      background-color: #2dd4bf;
+      color: #0f172a;
+      font-weight: 700;
+      padding: 1rem 2rem;
+      border-radius: 0.75rem;
+      border: none;
+      cursor: pointer;
+      font-size: 1.1rem;
+      transition: background-color 0.3s ease;
+      align-self: flex-start;
+      box-shadow: 0 0 15px #2dd4bf;
+    }
 
-          button:hover {
-            background-color: #22d3ee;
-            box-shadow: 0 0 20px #22d3ee;
-          }
+    button:hover {
+      background-color: #22d3ee;
+      box-shadow: 0 0 20px #22d3ee;
+    }
 
-          button:disabled {
-            background-color: #0f172a;
-            color: #94a3b8;
-            cursor: not-allowed;
-            box-shadow: none;
-          }
-        }</style>
+    button:disabled {
+      background-color: #0f172a;
+      color: #94a3b8;
+      cursor: not-allowed;
+      box-shadow: none;
+    }
+  `}</style>
 
         <h2>Send Us a Message</h2>
 
