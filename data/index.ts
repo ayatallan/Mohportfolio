@@ -20,7 +20,7 @@ export const gridItems = [
   {
     id: 2,
     title:
-      "We reshape digital transformation in a way that enriches our clients’ businesses",
+      "We reshape digital transformation in a way that enriches our clients&rsquo; businesses",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -48,7 +48,6 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
     title:
@@ -78,7 +77,6 @@ export const projects = [
     title: "Automation(STA)",
     des: "We help to create and apply the latest technology to business processes, allowing them to function with minimal human intervention.",
     img: "/automation-svgrepo-com.svg",
-    // iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     iconLists: [],
     link: "/automation",
   },
@@ -113,103 +111,35 @@ export const testimonials = [
     quote:
       "It is 2022, and the shortage in the global oil & gas supply due to the war in Ukraine, coupled with the embargo on Russian oil & gas have caused the demand to increase. With this increased demand, Hess Exploration and Production realised that they needed better computing power to increase gas extraction and storage.",
     name: "Hess Exploration and Production Malaysia",
-    // title: "Hess Exploration and Production Malaysia",
   },
   {
     quote:
-      "When one of Asia Pacific’s largest insurance and securities groups received a 90% capacity alert from its enterprise IT team, AIA Berhad did what almost every organization did during the Covid pandemic – they re-evaluated their operations, looking at it with a fresh outlook taking into account the changing requirements brought upon by the pandemic.",
+      "When one of Asia Pacific&rsquo;s largest insurance and securities groups received a 90% capacity alert from its enterprise IT team, AIA Berhad did what almost every organization did during the Covid pandemic – they re-evaluated their operations, looking at it with a fresh outlook taking into account the changing requirements brought upon by the pandemic.",
     name: "AIA Berhad Life Insurance & Securities",
-
-    // title: "Hess Exploration and Production Malaysia",
   },
   {
     quote:
       "Newly acquired GVE Asia Sdn Bhd was tasked to set up their IT infrastructure in just two weeks. The Volkswagen and Jeep dealer was only just beginning to understand and adopt the processes of their new parent company, when they realised their technology infrastructure required a revamp. This was a requirement by Volkswagen …",
     name: "GVE Asia Sdn Bhd",
-    // title: "Hess Exploration and Production Malaysia",
   },
 ];
 
 export const companies = [
-  {
-    id: 1,
-    nameImg: "/1.png",
-  },
-  {
-    id: 2,
-  
-    nameImg: "/2.png",
-  },
-  {
-    id: 3,
-    
-    nameImg: "/3.png",
-  },
-  {
-    id: 4,
-    
-    nameImg: "/4.png",
-  },
-  {
-    id: 5,
-    
-    nameImg: "/5.png",
-  },
-  {
-    id: 6,
-    
-    nameImg: "/6.png",
-  },
-  {
-    id: 7,
-    
-    nameImg: "/7.png",
-  },
-  {
-    id: 8,
-    
-    nameImg: "/8.png",
-  },
-  {
-    id: 9,
-    
-    nameImg: "/9.png",
-  },
-  {
-    id: 10,
-    
-    nameImg: "/10.png",
-  },
-  ,
-  {
-    id: 11,
-    
-    nameImg: "/11.png",
-  },
-  ,
-  {
-    id: 12,
-    
-    nameImg: "/12.png",
-  },
-  ,
-  {
-    id: 13,
-    
-    nameImg: "/13.png",
-  },
-  ,
-  {
-    id: 14,
-    
-    nameImg: "/14.png",
-  },
-  ,
-  {
-    id: 15,
-    
-    nameImg: "/15.png",
-  },
+  { id: 1, nameImg: "/1.png" },
+  { id: 2, nameImg: "/2.png" },
+  { id: 3, nameImg: "/3.png" },
+  { id: 4, nameImg: "/4.png" },
+  { id: 5, nameImg: "/5.png" },
+  { id: 6, nameImg: "/6.png" },
+  { id: 7, nameImg: "/7.png" },
+  { id: 8, nameImg: "/8.png" },
+  { id: 9, nameImg: "/9.png" },
+  { id: 10, nameImg: "/10.png" },
+  { id: 11, nameImg: "/11.png" },
+  { id: 12, nameImg: "/12.png" },
+  { id: 13, nameImg: "/13.png" },
+  { id: 14, nameImg: "/14.png" },
+  { id: 15, nameImg: "/15.png" },
 ];
 
 export const workExperience = [
@@ -223,37 +153,28 @@ export const workExperience = [
   {
     id: 2,
     title: "Passion",
-    desc: "We’re passionate about everything we do at Systemizer Technic. Our team is committed to providing that exciting and passionate experience for every customer",
-    className: "md:col-span-2", // change to md:col-span-2
+    desc: "We&rsquo;re passionate about everything we do at Systemizer Technic. Our team is committed to providing that exciting and passionate experience for every customer",
+    className: "md:col-span-2",
     thumbnail: "/award.png",
   },
   {
     id: 3,
     title: "Integrity",
     desc: "Everything we do at Systemizer Technic is done with integrity, honesty, and professionalism, backed by our strong principles to create trust with every client.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/diamond.png",
   },
   {
     id: 4,
     title: "Futurist",
-    desc: "We’re continually striving to stay ahead of the curve on technology by using various leading-edge tools and strategies to analyse trends in the future of technology. We make the future possible through innovation and ingenuity.",
+    desc: "We&rsquo;re continually striving to stay ahead of the curve on technology by using various leading-edge tools and strategies to analyse trends in the future of technology. We make the future possible through innovation and ingenuity.",
     className: "md:col-span-2",
     thumbnail: "/technology.png",
   },
 ];
 
 export const socialMedia = [
-  {
-    id: 1,
-    img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
-    img: "/link.svg",
-  },
+  { id: 1, img: "/git.svg" },
+  { id: 2, img: "/twit.svg" },
+  { id: 3, img: "/link.svg" },
 ];
