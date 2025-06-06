@@ -157,7 +157,7 @@ const NetworkSecurityPage = () => {
               {`Leading-edge IT technology services custom-tailored for your business`}
             </h1>
             <p>
-              {`Systemizer Technic specializes in helping companies modernise technology, reimagine processes and transform experiences. We're on a mission to drive innovation through technology — streamlining operations, supercharging growth, and putting your business at the forefront of digital transformation.`}
+              {`Systemizer Technic specializes in helping companies modernise technology, reimagine processes and transform experiences. We&apos;re on a mission to drive innovation through technology — streamlining operations, supercharging growth, and putting your business at the forefront of digital transformation.`}
             </p>
           </div>
           <div className="stn-visual">
