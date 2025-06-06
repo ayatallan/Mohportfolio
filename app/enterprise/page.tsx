@@ -101,13 +101,11 @@ const EnterprisePage = () => {
 
       {/* Second Section: Managed Maintenance Services */}
       <section className="enterprise-mms">
-        <style jsx>{
+        <style jsx>{`
           .enterprise-mms {
             padding: 4rem 2rem;
             background: #121424;
             color: #e0e7ff;
-
-            // border-radius: 12px;
             box-shadow: 0 8px 24px rgba(19, 38, 69, 0.7);
             backdrop-filter: blur(12px);
             font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -161,22 +159,16 @@ const EnterprisePage = () => {
               font-size: 1rem;
             }
           }
-        }</style>
+        `}</style>
 
         <p>
           Managed Maintenance Services (ST-MMS)
           <br />
           When it comes to IT infrastructure maintenance services, flexibility
-          is crucial. Our Enterprise Managed Maintenance Services (ST-MMS) offer
-          4 customisable tiers with varying support levels to meet specific SLA
-          requirements and budget requirements. We provide certified engineers,
-          Single Points of Contact (SPOCs), and an IT service ticketing system
-          for streamlined communication.
+          is crucial...
         </p>
 
-        <div className="table-wrapper">
-          <table>
-            <thead>
+                  <thead>
               <tr>
                 <th></th>
                 <th>MMS-1</th>
@@ -291,14 +283,14 @@ const EnterprisePage = () => {
         </div>
       </section>
 
+
       {/* Third Section: Enterprise Deployment */}
       <section className="enterprise-deployment">
-        <style jsx>{
+        <style jsx>{`
           .enterprise-deployment {
             background: linear-gradient(135deg, rgb(63, 77, 95), #111827);
             color: #d1d5db;
             padding: 4rem;
-            // border-radius: 12px;
             box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
             font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
             width: 100%;
@@ -307,7 +299,7 @@ const EnterprisePage = () => {
           .enterprise-deployment h2 {
             font-size: 2.8rem;
             font-weight: 700;
-            padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+            padding: 1.5rem;
             margin-bottom: 1.5rem;
             color: #e0e7ff;
             text-align: center;
@@ -348,21 +340,10 @@ const EnterprisePage = () => {
               font-size: 1.2rem;
             }
           }
-        }</style>
+        `}</style>
 
         <h2>Enterprise Deployment</h2>
-        <p>
-          IT infrastructure deployment is a crucial process that is frequently
-          undervalued. Our engagement initiates well in advance of logistical
-          planning, prioritising the safeguarding of your investment.
-        </p>
-        <p>
-          Our installations are exclusively conducted by skilled and certified
-          engineers, guaranteeing accuracy and dependability. Upon completion, a
-          detailed report will be provided. Additionally, we extend support in
-          managing asset records and configuring hardware to enhance operational
-          efficiency.
-        </p>
+        <p>IT infrastructure deployment is a crucial process ...</p>
         <ul>
           <li>Insured Transportation & Handling</li>
           <li>Professional Installation & Configuration</li>
@@ -370,18 +351,16 @@ const EnterprisePage = () => {
           <li>Deployment Report</li>
         </ul>
       </section>
+
       {/* Fourth Section: Helpdesk */}
       <section className="helpdesk-section">
-        <style jsx>{
+        <style jsx>{`
           .helpdesk-section {
-            background-color: rgb(82, 100, 118); /* lighter background */
+            background-color: rgb(82, 100, 118);
             padding: 4rem 2rem;
-            // border-radius: 12px;
             box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
             color: #192130;
             font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-            // max-width: 900px;
-            // margin: 3rem auto;
             text-align: center;
           }
 
@@ -418,14 +397,12 @@ const EnterprisePage = () => {
               font-size: 1.3rem;
             }
           }
-        }</style>
+        `}</style>
 
         <h2>Helpdesk</h2>
         <p>
-          Our Helpdesk ensures round-the-clock IT support, providing swift and
-          reliable solutions to keep your operations running seamlessly.
+          Our Helpdesk ensures round-the-clock IT support...
         </p>
-        {/* Replace the src below with your actual image path or URL */}
         <img src="/e1.png" alt="Helpdesk Support Illustration" />
       </section>
 
