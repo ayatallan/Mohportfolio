@@ -88,20 +88,20 @@ const EnterprisePage = () => {
         <div className="enterprise-content">
           <h1>Excellence in Enterprise Maintenance Services</h1>
           <p>
-            Isn’t just about fixing issues quickly. It’s about anticipating your
-            needs, preventing problems before they arise, and creating a
-            seamless, efficient digital environment where technology truly
-            empowers your success.
+            Isn&rsquo;t just about fixing issues quickly. It&rsquo;s about
+            anticipating your needs, preventing problems before they arise, and
+            creating a seamless, efficient digital environment where technology
+            truly empowers your success.
           </p>
           <blockquote>
-            “Hairie Zairel Oh, Managing Director, Systemizer Technic”
+            &ldquo;Hairie Zairel Oh, Managing Director, Systemizer Technic&rdquo;
           </blockquote>
         </div>
       </section>
 
       {/* Second Section: Managed Maintenance Services */}
       <section className="enterprise-mms">
-        <style jsx>{`
+        <style jsx>{
           .enterprise-mms {
             padding: 4rem 2rem;
             background: #121424;
@@ -161,7 +161,7 @@ const EnterprisePage = () => {
               font-size: 1rem;
             }
           }
-        `}</style>
+        }</style>
 
         <p>
           Managed Maintenance Services (ST-MMS)
@@ -293,7 +293,7 @@ const EnterprisePage = () => {
 
       {/* Third Section: Enterprise Deployment */}
       <section className="enterprise-deployment">
-        <style jsx>{`
+        <style jsx>{
           .enterprise-deployment {
             background: linear-gradient(135deg, rgb(63, 77, 95), #111827);
             color: #d1d5db;
@@ -348,7 +348,7 @@ const EnterprisePage = () => {
               font-size: 1.2rem;
             }
           }
-        `}</style>
+        }</style>
 
         <h2>Enterprise Deployment</h2>
         <p>
@@ -372,7 +372,7 @@ const EnterprisePage = () => {
       </section>
       {/* Fourth Section: Helpdesk */}
       <section className="helpdesk-section">
-        <style jsx>{`
+        <style jsx>{
           .helpdesk-section {
             background-color: rgb(82, 100, 118); /* lighter background */
             padding: 4rem 2rem;
@@ -418,7 +418,7 @@ const EnterprisePage = () => {
               font-size: 1.3rem;
             }
           }
-        `}</style>
+        }</style>
 
         <h2>Helpdesk</h2>
         <p>
