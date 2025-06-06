@@ -154,10 +154,10 @@ const NetworkSecurityPage = () => {
         <div className="stn-hero-container">
           <div className="stn-text">
             <h1>
-              {`Leading-edge IT technology services custom-tailored for your business`}
+              Leading-edge IT technology services custom-tailored for your business
             </h1>
 <p>
-  {"Systemizer Technic specializes in helping companies modernise technology, reimagine processes and transform experiences. We're on a mission to drive innovation through technology — streamlining operations, supercharging growth, and putting your business at the forefront of digital transformation."}
+  Systemizer Technic specializes in helping companies modernise technology, reimagine processes and transform experiences. We are on a mission to drive innovation through technology — streamlining operations, supercharging growth, and putting your business at the forefront of digital transformation.
 </p>
 
           </div>
@@ -236,22 +236,22 @@ const NetworkSecurityPage = () => {
           <div className="service-card">
             <h2>What We Do</h2>
             <p>
-              {`As an innovative solution provider, we provide a range of services designed to take the heavy lifting off your hands. We are Systemizer Technic — engineering modern IT solutions with a focus on results, experience, and value.`}
+              As an innovative solution provider, we provide a range of services designed to take the heavy lifting off your hands. We are Systemizer Technic — engineering modern IT solutions with a focus on results, experience, and value.
             </p>
           </div>
           <div className="service-card">
             <p>
-              {`We deliver operational excellence through flexible scaling, specialized skills, and cohesive partner ecosystems. Your goals shape our solutions — from strategy and design to execution.`}
+              We deliver operational excellence through flexible scaling, specialized skills, and cohesive partner ecosystems. Your goals shape our solutions — from strategy and design to execution.
             </p>
           </div>
           <div className="service-card">
             <p>
-              {`We maintain open dialogue with our clients, ensuring our implementations align seamlessly with your long-term goals. We believe every detail matters in building impactful tech experiences.`}
+              We maintain open dialogue with our clients, ensuring our implementations align seamlessly with your long-term goals. We believe every detail matters in building impactful tech experiences.
             </p>
           </div>
           <div className="service-card">
             <p>
-              {`Our team works closely with yours to design a comprehensive IT plan, tailored to your transformation journey and digital priorities. Let us help unlock the next stage of your business potential.`}
+              Our team works closely with yours to design a comprehensive IT plan, tailored to your transformation journey and digital priorities. Let us help unlock the next stage of your business potential.
             </p>
           </div>
         </div>
