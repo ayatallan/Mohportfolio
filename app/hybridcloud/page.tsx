@@ -66,7 +66,7 @@ const HybridCloudPage = () => {
           <h1>
             Hybrid cloud: where the power of flexibility meets the security of
             control, revolutionising the way businesses scale and innovate in
-            today’s dynamic digital landscape.
+            today&rsquo;s dynamic digital landscape.
           </h1>
         </div>
       </section>
@@ -80,7 +80,7 @@ const HybridCloudPage = () => {
             display: flex;
             flex-direction: column;
             padding: 5rem 2rem;
-            background: #1e293b; /* slightly lighter */
+            background: #1e293b;
             color: #e2e8f0;
           }
 
@@ -151,14 +151,14 @@ const HybridCloudPage = () => {
             Cloud bursting involves a configuration between a private cloud and
             a public cloud, utilising load balancing to redirect traffic
             overflow. When a private cloud reaches its full capacity, external
-            workloads that would otherwise overwhelm the private servers “burst”
-            to external third-party cloud services.
+            workloads that would otherwise overwhelm the private servers
+            &ldquo;burst&rdquo; to external third-party cloud services.
           </p>
           <p>
             <strong>How it Works:</strong>
             <br />
-            When private cloud reaches capacity, excess workloads “burst” to
-            third-party cloud services.
+            When private cloud reaches capacity, excess workloads
+            &ldquo;burst&rdquo; to third-party cloud services.
           </p>
           <p>
             <strong>Key Benefits:</strong>
@@ -189,7 +189,7 @@ const HybridCloudPage = () => {
             display: flex;
             flex-direction: column;
             padding: 5rem 2rem;
-            background: #15243a; /* medium dark */
+            background: #15243a;
             color: #e2e8f0;
           }
 
@@ -260,10 +260,10 @@ const HybridCloudPage = () => {
             strategy might involve multiple cloud services.
           </p>
           <p>
-            <strong>Systemizer Technic’s</strong> portfolio provides the tools
-            and expertise to ensure the success of this approach. By leveraging
-            on automation, we can further enhance the execution of the DR plan
-            and significantly reduce recovery time.
+            <strong>Systemizer Technic&rsquo;s</strong> portfolio provides the
+            tools and expertise to ensure the success of this approach. By
+            leveraging on automation, we can further enhance the execution of
+            the DR plan and significantly reduce recovery time.
           </p>
         </div>
       </section>
@@ -277,7 +277,7 @@ const HybridCloudPage = () => {
             display: flex;
             flex-direction: column;
             padding: 5rem 2rem;
-            background: #243554; /* lighter dark blue */
+            background: #243554;
             color: #e2e8f0;
           }
 
@@ -326,7 +326,7 @@ const HybridCloudPage = () => {
         `}</style>
 
         <div className="devtest-text">
-          <h2>Use Case: Application Development & Testing</h2>
+          <h2>Use Case: Application Development &amp; Testing</h2>
           <p>
             A hybrid cloud environment provides significant benefits for
             application development and testing by eliminating the need for
@@ -343,9 +343,9 @@ const HybridCloudPage = () => {
           </p>
           <p>
             Leveraging the public cloud for development and testing also
-            supports an organisation’s broader application modernisation efforts
-            — especially transitioning from monolithic legacy applications to a
-            microservices architecture.
+            supports an organisation&rsquo;s broader application modernisation
+            efforts &mdash; especially transitioning from monolithic legacy
+            applications to a microservices architecture.
           </p>
         </div>
         <div className="devtest-image">
