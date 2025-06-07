@@ -48,13 +48,13 @@ const Clients = () => {
 
                 {/* Using standard <img> tags */}
                 <img
-                  src={company.img}
-                  alt={company.name}
+                  //src={company.img}
+                  alt={company.nameImg}
                   className="md:w-10 w-5"
                 />
                 <img
-                  src={company.nameImg}
-                  alt={company.name}
+                 // src={company.nameImg}
+                  alt={company.nameImg}
                   width={company.id === 4 || company.id === 5 ? 100 : 150}
                   className="md:w-24 w-20"
                 />

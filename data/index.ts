@@ -111,19 +111,21 @@ export const testimonials = [
     quote:
       "It is 2022, and the shortage in the global oil & gas supply due to the war in Ukraine, coupled with the embargo on Russian oil & gas have caused the demand to increase. With this increased demand, Hess Exploration and Production realised that they needed better computing power to increase gas extraction and storage.",
     name: "Hess Exploration and Production Malaysia",
+    title: "Energy Industry Leader"
   },
   {
     quote:
-      "When one of Asia Pacific&rsquo;s largest insurance and securities groups received a 90% capacity alert from its enterprise IT team, AIA Berhad did what almost every organization did during the Covid pandemic – they re-evaluated their operations, looking at it with a fresh outlook taking into account the changing requirements brought upon by the pandemic.",
+      "When one of Asia Pacific’s largest insurance and securities groups received a 90% capacity alert from its enterprise IT team, AIA Berhad did what almost every organization did during the Covid pandemic – they re-evaluated their operations, looking at it with a fresh outlook taking into account the changing requirements brought upon by the pandemic.",
     name: "AIA Berhad Life Insurance & Securities",
+    title: "Insurance & Financial Services"
   },
   {
     quote:
       "Newly acquired GVE Asia Sdn Bhd was tasked to set up their IT infrastructure in just two weeks. The Volkswagen and Jeep dealer was only just beginning to understand and adopt the processes of their new parent company, when they realised their technology infrastructure required a revamp. This was a requirement by Volkswagen …",
     name: "GVE Asia Sdn Bhd",
+    title: "Automotive Industry"
   },
 ];
-
 export const companies = [
   { id: 1, nameImg: "/1.png" },
   { id: 2, nameImg: "/2.png" },

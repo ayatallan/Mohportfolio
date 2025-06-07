@@ -168,7 +168,9 @@ const EnterprisePage = () => {
           is crucial...
         </p>
 
-                  <thead>
+        <div className="table-wrapper">
+          <table>
+            <thead>
               <tr>
                 <th></th>
                 <th>MMS-1</th>
@@ -282,7 +284,6 @@ const EnterprisePage = () => {
           </table>
         </div>
       </section>
-
 
       {/* Third Section: Enterprise Deployment */}
       <section className="enterprise-deployment">
