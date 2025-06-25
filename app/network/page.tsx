@@ -154,12 +154,16 @@ const NetworkSecurityPage = () => {
         <div className="stn-hero-container">
           <div className="stn-text">
             <h1>
-              Leading-edge IT technology services custom-tailored for your business
+              Leading-edge IT technology services custom-tailored for your
+              business
             </h1>
-<p>
-  Systemizer Technic specializes in helping companies modernise technology, reimagine processes and transform experiences. We are on a mission to drive innovation through technology — streamlining operations, supercharging growth, and putting your business at the forefront of digital transformation.
-</p>
-
+            <p>
+              sky5tech specializes in helping companies modernise technology,
+              reimagine processes and transform experiences. We are on a mission
+              to drive innovation through technology — streamlining operations,
+              supercharging growth, and putting your business at the forefront
+              of digital transformation.
+            </p>
           </div>
           <div className="stn-visual">
             <img
@@ -236,110 +240,121 @@ const NetworkSecurityPage = () => {
           <div className="service-card">
             <h2>What We Do</h2>
             <p>
-              As an innovative solution provider, we provide a range of services designed to take the heavy lifting off your hands. We are Systemizer Technic — engineering modern IT solutions with a focus on results, experience, and value.
+              As an innovative solution provider, we provide a range of services
+              designed to take the heavy lifting off your hands. We are sky5tech
+              — engineering modern IT solutions with a focus on results,
+              experience, and value.
             </p>
           </div>
           <div className="service-card">
             <p>
-              We deliver operational excellence through flexible scaling, specialized skills, and cohesive partner ecosystems. Your goals shape our solutions — from strategy and design to execution.
+              We deliver operational excellence through flexible scaling,
+              specialized skills, and cohesive partner ecosystems. Your goals
+              shape our solutions — from strategy and design to execution.
             </p>
           </div>
           <div className="service-card">
             <p>
-              We maintain open dialogue with our clients, ensuring our implementations align seamlessly with your long-term goals. We believe every detail matters in building impactful tech experiences.
+              We maintain open dialogue with our clients, ensuring our
+              implementations align seamlessly with your long-term goals. We
+              believe every detail matters in building impactful tech
+              experiences.
             </p>
           </div>
           <div className="service-card">
             <p>
-              Our team works closely with yours to design a comprehensive IT plan, tailored to your transformation journey and digital priorities. Let us help unlock the next stage of your business potential.
+              Our team works closely with yours to design a comprehensive IT
+              plan, tailored to your transformation journey and digital
+              priorities. Let us help unlock the next stage of your business
+              potential.
             </p>
           </div>
         </div>
       </section>
 
-<section className="stn-email">
-  <style jsx>{`
-    .stn-email {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background: linear-gradient(135deg, #06080f, #0c1b27, #101827);
-      color: #f0f9ff;
-      backdrop-filter: blur(10px);
-      border-radius: 1rem;
-      margin: 0 auto;
-    }
+      <section className="stn-email">
+        <style jsx>{`
+          .stn-email {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #06080f, #0c1b27, #101827);
+            color: #f0f9ff;
+            backdrop-filter: blur(10px);
+            border-radius: 1rem;
+            margin: 0 auto;
+          }
 
-    .stn-email h2 {
-      font-size: 2.5rem;
-      font-weight: 800;
-      border-left: 4px solid #2dd4bf;
-      padding-left: 1rem;
-      margin-bottom: 1.5rem;
-      margin-top: 1.5rem;
-    }
+          .stn-email h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            border-left: 4px solid #2dd4bf;
+            padding-left: 1rem;
+            margin-bottom: 1.5rem;
+            margin-top: 1.5rem;
+          }
 
-    form {
-      display: flex;
-      flex-direction: column;
-      width: 90%;
-      max-width: 600px;
-      gap: 2.5rem;
-      padding: 5rem;
-    }
+          form {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            max-width: 600px;
+            gap: 2.5rem;
+            padding: 5rem;
+          }
 
-    input[type="email"],
-    textarea {
-      background-color: rgba(255, 255, 255, 0.05);
-      border: 2px solid #2dd4bf;
-      border-radius: 0.75rem;
-      padding: 1rem;
-      color: #e0f7fa;
-      font-size: 1.1rem;
-      font-family: inherit;
-      resize: vertical;
-      min-height: 3rem;
-      transition: border-color 0.3s ease;
-    }
+          input[type="email"],
+          textarea {
+            background-color: rgba(255, 255, 255, 0.05);
+            border: 2px solid #2dd4bf;
+            border-radius: 0.75rem;
+            padding: 1rem;
+            color: #e0f7fa;
+            font-size: 1.1rem;
+            font-family: inherit;
+            resize: vertical;
+            min-height: 3rem;
+            transition: border-color 0.3s ease;
+          }
 
-    input[type="email"]:focus,
-    textarea:focus {
-      outline: none;
-      border-color: #22d3ee;
-      background-color: rgba(255, 255, 255, 0.1);
-    }
+          input[type="email"]:focus,
+          textarea:focus {
+            outline: none;
+            border-color: #22d3ee;
+            background-color: rgba(255, 255, 255, 0.1);
+          }
 
-    textarea {
-      min-height: 120px;
-    }
+          textarea {
+            min-height: 120px;
+          }
 
-    button {
-      background-color: #2dd4bf;
-      color: #0f172a;
-      font-weight: 700;
-      padding: 1rem 2rem;
-      border-radius: 0.75rem;
-      border: none;
-      cursor: pointer;
-      font-size: 1.1rem;
-      transition: background-color 0.3s ease;
-      align-self: flex-start;
-      box-shadow: 0 0 15px #2dd4bf;
-    }
+          button {
+            background-color: #2dd4bf;
+            color: #0f172a;
+            font-weight: 700;
+            padding: 1rem 2rem;
+            border-radius: 0.75rem;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease;
+            align-self: flex-start;
+            box-shadow: 0 0 15px #2dd4bf;
+          }
 
-    button:hover {
-      background-color: #22d3ee;
-      box-shadow: 0 0 20px #22d3ee;
-    }
+          button:hover {
+            background-color: #22d3ee;
+            box-shadow: 0 0 20px #22d3ee;
+          }
 
-    button:disabled {
-      background-color: #0f172a;
-      color: #94a3b8;
-      cursor: not-allowed;
-      box-shadow: none;
-    }
-  `}</style>
+          button:disabled {
+            background-color: #0f172a;
+            color: #94a3b8;
+            cursor: not-allowed;
+            box-shadow: none;
+          }
+        `}</style>
 
         <h2>Send Us a Message</h2>
 

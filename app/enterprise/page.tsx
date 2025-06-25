@@ -94,7 +94,7 @@ const EnterprisePage = () => {
             truly empowers your success.
           </p>
           <blockquote>
-            &ldquo;Hairie Zairel Oh, Managing Director, Systemizer Technic&rdquo;
+            &ldquo;Hairie Zairel Oh, Managing Director, sky5tech &rdquo;
           </blockquote>
         </div>
       </section>
@@ -401,9 +401,7 @@ const EnterprisePage = () => {
         `}</style>
 
         <h2>Helpdesk</h2>
-        <p>
-          Our Helpdesk ensures round-the-clock IT support...
-        </p>
+        <p>Our Helpdesk ensures round-the-clock IT support...</p>
         <img src="/e1.png" alt="Helpdesk Support Illustration" />
       </section>
 

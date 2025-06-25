@@ -1,8 +1,8 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "About", link: "/#about" },
+  { name: "Projects", link: "/#projects" },
+  { name: "Testimonials", link: "/#testimonials" },
+  { name: "Contact", link: "/#contact" },
 ];
 
 export const gridItems = [
@@ -148,21 +148,21 @@ export const workExperience = [
   {
     id: 1,
     title: "Leadership",
-    desc: "We develop leaders within Systemizer Technic. A team of people who lead by example and go above and beyond to ensure every need of every client is met and managed.",
+    desc: "We develop leaders within sky5tech. A team of people who lead by example and go above and beyond to ensure every need of every client is met and managed.",
     className: "md:col-span-2",
     thumbnail: "/goal.png",
   },
   {
     id: 2,
     title: "Passion",
-    desc: "We&rsquo;re passionate about everything we do at Systemizer Technic. Our team is committed to providing that exciting and passionate experience for every customer",
+    desc: "We&rsquo;re passionate about everything we do at sky5tech. Our team is committed to providing that exciting and passionate experience for every customer",
     className: "md:col-span-2",
     thumbnail: "/award.png",
   },
   {
     id: 3,
     title: "Integrity",
-    desc: "Everything we do at Systemizer Technic is done with integrity, honesty, and professionalism, backed by our strong principles to create trust with every client.",
+    desc: "Everything we do at sky5tech is done with integrity, honesty, and professionalism, backed by our strong principles to create trust with every client.",
     className: "md:col-span-2",
     thumbnail: "/diamond.png",
   },

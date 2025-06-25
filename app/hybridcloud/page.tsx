@@ -12,7 +12,7 @@ const EnterprisePage = () => {
   return (
     <>
       <Head>
-        <title>Enterprise Maintenance Services - Systemizer Technic</title>
+        <title>Enterprise Maintenance Services - sky5tech</title>
         <meta
           name="description"
           content="Discover excellence in enterprise maintenance, managed IT services, deployment, and helpdesk support."
@@ -22,7 +22,11 @@ const EnterprisePage = () => {
       <FloatingNav navItems={navItems} />
 
       {/* First Section */}
-      <section className="enterprise-hero" role="region" aria-label="Enterprise Hero Section">
+      <section
+        className="enterprise-hero"
+        role="region"
+        aria-label="Enterprise Hero Section"
+      >
         <style jsx>{`
           .enterprise-hero {
             min-height: 100vh;
@@ -97,13 +101,17 @@ const EnterprisePage = () => {
             truly empowers your success.
           </p>
           <blockquote>
-            &ldquo;Hairie Zairel Oh, Managing Director, Systemizer Technic&rdquo;
+            &ldquo;Hairie Zairel Oh, Managing Director sky5tech&rdquo;
           </blockquote>
         </div>
       </section>
 
       {/* Second Section: Managed Maintenance Services */}
-      <section className="enterprise-mms" role="region" aria-label="Managed Maintenance Services">
+      <section
+        className="enterprise-mms"
+        role="region"
+        aria-label="Managed Maintenance Services"
+      >
         <style jsx>{`
           .enterprise-mms {
             padding: 4rem 2rem;
@@ -163,7 +171,11 @@ const EnterprisePage = () => {
           is crucial...
         </p>
 
-        <div className="table-wrapper" tabIndex={0} aria-label="Maintenance services comparison table">
+        <div
+          className="table-wrapper"
+          tabIndex={0}
+          aria-label="Maintenance services comparison table"
+        >
           <table>
             <thead>
               <tr>

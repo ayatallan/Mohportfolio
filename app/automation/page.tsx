@@ -159,7 +159,7 @@ const AutomationPage = () => {
             testing and faster restoration.
           </p>
           <p className="paragraph">
-            Systemizer Technic provides tools and training for effective DR
+            sky5tech Technic provides tools and training for effective DR
             Automation strategy implementation, enhancing efficiency and
             accuracy while saving costs and building trust in organisational
             capabilities.
@@ -233,7 +233,7 @@ const AutomationPage = () => {
           display: flex;
           justify-content: center;
           text-align: center;
-          padding-top:15rem;
+          padding-top: 15rem;
         }
 
         .header-content {
