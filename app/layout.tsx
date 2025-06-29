@@ -20,7 +20,6 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
          
-        {/* <link rel="icon" href="/Sky5tech.png" sizes="any" /> */}
         /* <link rel="icon" href="/jsm-logo.png" sizes="any" />  */
       </head>
       <body className={inter.className}>
