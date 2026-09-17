@@ -42,23 +42,22 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-          </p>
-
+          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80"></p>
           {/**
            *  Link: https://ui.aceternity.com/components/text-generate-effect
            *
            *  change md:text-6xl, add more responsive code
            */}
+          <p className="text-center text-sm md:text-base text-blue-100 mb-6 tracking-widest">
+            <b>License #:178829001</b>
+          </p>
           <TextGenerateEffect
             words="Leading-edge IT technology services custom-tailored for your business"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
-
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Modernizing business. Powering innovation.
           </p>
-
           <a href="#about">
             <MagicButton
               title="Show my work"
