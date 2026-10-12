@@ -49,7 +49,7 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <p className="text-center text-sm md:text-base text-blue-100 mb-6 tracking-widest">
-            <b>License #:178829001</b>
+            <b>License #:B31203601</b>
           </p>
           <TextGenerateEffect
             words="Leading-edge IT technology services custom-tailored for your business"
